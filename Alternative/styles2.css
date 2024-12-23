@@ -1,3 +1,11 @@
+:root{
+    --default-color: #fff;
+    --button-color:#C271FF;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
 body{
     margin: 0;
     padding: 0;
@@ -10,14 +18,14 @@ main .hero{
     background-repeat: no-repeat;
     width:100%;
     height: 100vh;
-}
-.nav-links {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style: none;
+    flex-direction: column;
+}
+a{
     text-decoration: none;
-    align-items: center;
+    color: var(--default-color);
+    margin:20px;
+    font-weight: bold;
 }
 .nav-bar{
     display: flex;
@@ -25,19 +33,44 @@ main .hero{
     align-items: center;
     padding:10px 80px;
 }
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    padding-left: 0;
+    width:100%;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 .hero-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.hero-content h1{
+    color: var(--default-color);
+    font-size: 10rem;
+    margin:25px 0 0;
+    font-weight: bold;
+}
 .hero-content-text {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
+    width:100%;
+    color:var(--default-color);
+    font-weight: bold;
+}
+.hero-content-text span{
+    margin:10px;
+    font-size: 1.3rem;
 }
 /* .hero-image{
     margin-top:
@@ -59,3 +92,15 @@ main .hero{
     justify-content: center;
     text-align: center;
 }
+.btn{
+    background-color: var(--button-color);
+    color: var(--default-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+}
+
