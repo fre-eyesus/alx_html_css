@@ -9,7 +9,7 @@ html{
 body{
     margin: 0;
     padding: 0;
-    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif;
 }
 main .hero{
     background-image: url(../css_advanced/CSS\ Advanced/object.png);
@@ -26,6 +26,7 @@ a{
     color: var(--default-color);
     margin:20px;
     font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .nav-bar{
     display: flex;
@@ -57,6 +58,7 @@ a{
     font-size: 10rem;
     margin:25px 0 0;
     font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .hero-content-text {
     display: flex;
@@ -67,10 +69,12 @@ a{
     width:100%;
     color:var(--default-color);
     font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .hero-content-text span{
-    margin:10px;
-    font-size: 1.3rem;
+    margin:0 50px 0 ;
+    font-size: 1.1rem;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 /* .hero-image{
     margin-top:
@@ -91,16 +95,18 @@ a{
     align-items:center;
     justify-content: center;
     text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .btn{
     background-color: var(--button-color);
     color: var(--default-color);
     padding: 10px 20px;
     border: none;
-    border-radius: 25px;
-    font-size: 1.6rem;
-    font-weight: bold;
+    border-radius: 35px;
+    font-size: 1.4rem;
+    font-weight:600;
     cursor: pointer;
-    margin: 10px;
+    margin: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
