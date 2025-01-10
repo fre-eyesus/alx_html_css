@@ -1,0 +1,29 @@
+
+footer{
+    background-color:#000000;
+    backrground-position: center; 
+    background-repeat: no-repeat;
+    backgound-size: cover;
+    width:100vw;
+    height:33.33vh;
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-primary);
+    font-size: 1.6rem;
+    padding:8rem 0 0 10rem;
+    font-weight: bold;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    padding-top:1.8rem;
+    width:100%;
+    margin-right:14rem;
+
+}
+.social img{
+    background-color: var(--color-primary);
+    border-radius: 65%;
+    margin-right:3rem;
+}
