@@ -1,14 +1,21 @@
+:root{
+    --color-primary: #FFFFFF;
+    --color-secondary: #FF6565;
+}
+
 
 html,body{
     font-size: 62.5%;
+}
+.header{
     background-image: url(../headphones/images/images/headphones_hero_1.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
     width:100%;
-    height:100%;
+    height:100vh;
 }
-.header{
+.container{
     display: flex;
     flex-direction: row;
     margin:20px 130px 20px 130px ;
@@ -17,7 +24,7 @@ html,body{
     font-size: 3.6rem;
     font-weight: bold;
     margin: 0;
-    color:#FFFFFF;
+    color:var(--color-primary);
 }
 .logo{
     display:flex;
@@ -40,15 +47,20 @@ nav ul{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    font:#FFFFFF;
+    font:var(--color-primary);
     list-style-type: none;
     margin:0;
     padding-top:2rem;
     width: 100%;
+    transition: color 0.5s ease-out 0ms linear;
+}
+li a:hover{
+    color:var(--color-secondary);
 }
 li a{
-    font-size:1.2rem;
+    font-size:1.5rem;
     font-weight: bold;
     text-decoration:none;
-    color:#FFFFFF;
+    color:var(--color-primary);
 }
+
